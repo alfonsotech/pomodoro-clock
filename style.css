@@ -13,8 +13,8 @@ body {
    background-color: #333333;
 }
 .container {
-   min-height:98%;
-   width:650px;
+   height: 625px;
+   width:625px;
    margin-top: 50px;
    text-shadow: 2px 2px 4px #000000;
    border: 1px dotted #D16C00;
@@ -25,7 +25,7 @@ body {
    background-attachment: fixed;  
 }
 .header {
-   padding:100px 10px 5px 10px;
+   padding: 100px 10px 5px 10px;
    font-size: 3em;
    font-weight: bolder;
 }
