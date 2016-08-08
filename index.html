@@ -1,0 +1,58 @@
+<!-- -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pomodoro Clock</title>
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="style.css">
+  <audio id="bell" src="hand-bells-cluster.mp3" type:"audio/mp3"></audio>
+  <audio id="horn" src="bike-horn.mp3" type:"audio/mp3"></audio>
+
+</head>
+<body>
+
+	<div class="container text-center">
+		<div class="header">
+			<p class="title">Pomodoro Clock</p>
+		</div><!--/.header -->
+			<hr id="smallBreaker">
+
+		<div class="content">
+
+			<div class="work">
+				<p class="workTime">Start Working For:</p>
+				<div class="workingMessage"></div>
+					<button id="workMinus">-5</button>
+					<div class="workCounter">5</div>
+					<button id="workPlus">+5</button>
+			</div><!--./workTime -->
+		
+			<div class="break">
+				<p class="breakTime">Go On Break For:</p>
+				<div class="breakMessage"></div>
+					<button id="breakMinus">-5</button>
+					<div class="breakCounter">5</div>
+					<button id="breakPlus">+5</button>
+			</div><!--./breakTime -->
+
+			<div class="start">
+				<button id="start">Start</button>
+			</div>
+
+			<div class="reset">
+				<button id="reset">Reset</button>
+			</div>
+
+		</div><!--/.content -->
+
+		<!--/<div class="footer">
+			<p id="footer">Footer</p>
+			</div>-->
+	</div><!--/.container -->
+<!-- Script tags-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+    <script src="app.js"></script>	
+</body>
+</html>
