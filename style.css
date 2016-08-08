@@ -54,10 +54,12 @@ button {
 .workCounter, .breakCounter {
    display: inline;
    font-size: 1em;
-   padding: 3px 32px 5px 30px;
+   padding: 13px 42px 15px 40px;
    min-width: 25%;
    background-color: white;
    margin: 20px 5px;
+   border: 1px solid #D16C00;
+   border-radius: 50%;
 }
 .breakMessage, .workTime, .workingMessage {
    margin-top: 0px;
