@@ -77,8 +77,8 @@ $(document).ready(function() {
 		breakCount = 10;
 		$('.workCounter').html(workCount);
 		$('.breakCounter').html(breakCount);
-		$('.workTime, #workMinus, .workCounter, #workPlus, .breakTime, #breakMinus, .breakCounter, #breakPlus, .breakMessage, #start').show();
-		$('.reset').hide();
+		$('.workTime, #workMinus, .workCounter, #workPlus, .breakTime, #breakMinus, .breakCounter, #breakPlus, #start').show();
+		$('.reset, .breakMessage').hide();
 	});
 
 	/*COUNTER CONTROLS*/
